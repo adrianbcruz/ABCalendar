@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4035C6B1BB5F0EF00CA7AAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4035C6A1BB5F0EF00CA7AAE /* main.m */; };
+		D4035C6E1BB5F0EF00CA7AAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4035C6D1BB5F0EF00CA7AAE /* AppDelegate.m */; };
+		D4035C711BB5F0EF00CA7AAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4035C701BB5F0EF00CA7AAE /* ViewController.m */; };
+		D4035C741BB5F0EF00CA7AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4035C721BB5F0EF00CA7AAE /* Main.storyboard */; };
+		D4035C761BB5F0EF00CA7AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4035C751BB5F0EF00CA7AAE /* Assets.xcassets */; };
+		D4035C791BB5F0EF00CA7AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4035C771BB5F0EF00CA7AAE /* LaunchScreen.storyboard */; };
+		D4035C841BB5F0EF00CA7AAE /* ABCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4035C831BB5F0EF00CA7AAE /* ABCalendarTests.m */; };
+		D4035C8F1BB5F0EF00CA7AAE /* ABCalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4035C8E1BB5F0EF00CA7AAE /* ABCalendarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4035C801BB5F0EF00CA7AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4035C5E1BB5F0EF00CA7AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4035C651BB5F0EF00CA7AAE;
+			remoteInfo = ABCalendar;
+		};
+		D4035C8B1BB5F0EF00CA7AAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4035C5E1BB5F0EF00CA7AAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4035C651BB5F0EF00CA7AAE;
+			remoteInfo = ABCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4035C661BB5F0EF00CA7AAE /* ABCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4035C6A1BB5F0EF00CA7AAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4035C6C1BB5F0EF00CA7AAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D4035C6D1BB5F0EF00CA7AAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D4035C6F1BB5F0EF00CA7AAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D4035C701BB5F0EF00CA7AAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D4035C731BB5F0EF00CA7AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4035C751BB5F0EF00CA7AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4035C781BB5F0EF00CA7AAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4035C7A1BB5F0EF00CA7AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4035C7F1BB5F0EF00CA7AAE /* ABCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4035C831BB5F0EF00CA7AAE /* ABCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCalendarTests.m; sourceTree = "<group>"; };
+		D4035C851BB5F0EF00CA7AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4035C8A1BB5F0EF00CA7AAE /* ABCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4035C8E1BB5F0EF00CA7AAE /* ABCalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABCalendarUITests.m; sourceTree = "<group>"; };
+		D4035C901BB5F0EF00CA7AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4035C631BB5F0EF00CA7AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4035C7C1BB5F0EF00CA7AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4035C871BB5F0EF00CA7AAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4035C5D1BB5F0EF00CA7AAE = {
+			isa = PBXGroup;
+			children = (
+				D4035C681BB5F0EF00CA7AAE /* ABCalendar */,
+				D4035C821BB5F0EF00CA7AAE /* ABCalendarTests */,
+				D4035C8D1BB5F0EF00CA7AAE /* ABCalendarUITests */,
+				D4035C671BB5F0EF00CA7AAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4035C671BB5F0EF00CA7AAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4035C661BB5F0EF00CA7AAE /* ABCalendar.app */,
+				D4035C7F1BB5F0EF00CA7AAE /* ABCalendarTests.xctest */,
+				D4035C8A1BB5F0EF00CA7AAE /* ABCalendarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4035C681BB5F0EF00CA7AAE /* ABCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				D4035C6C1BB5F0EF00CA7AAE /* AppDelegate.h */,
+				D4035C6D1BB5F0EF00CA7AAE /* AppDelegate.m */,
+				D4035C6F1BB5F0EF00CA7AAE /* ViewController.h */,
+				D4035C701BB5F0EF00CA7AAE /* ViewController.m */,
+				D4035C721BB5F0EF00CA7AAE /* Main.storyboard */,
+				D4035C751BB5F0EF00CA7AAE /* Assets.xcassets */,
+				D4035C771BB5F0EF00CA7AAE /* LaunchScreen.storyboard */,
+				D4035C7A1BB5F0EF00CA7AAE /* Info.plist */,
+				D4035C691BB5F0EF00CA7AAE /* Supporting Files */,
+			);
+			path = ABCalendar;
+			sourceTree = "<group>";
+		};
+		D4035C691BB5F0EF00CA7AAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4035C6A1BB5F0EF00CA7AAE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4035C821BB5F0EF00CA7AAE /* ABCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4035C831BB5F0EF00CA7AAE /* ABCalendarTests.m */,
+				D4035C851BB5F0EF00CA7AAE /* Info.plist */,
+			);
+			path = ABCalendarTests;
+			sourceTree = "<group>";
+		};
+		D4035C8D1BB5F0EF00CA7AAE /* ABCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4035C8E1BB5F0EF00CA7AAE /* ABCalendarUITests.m */,
+				D4035C901BB5F0EF00CA7AAE /* Info.plist */,
+			);
+			path = ABCalendarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4035C651BB5F0EF00CA7AAE /* ABCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4035C931BB5F0EF00CA7AAE /* Build configuration list for PBXNativeTarget "ABCalendar" */;
+			buildPhases = (
+				D4035C621BB5F0EF00CA7AAE /* Sources */,
+				D4035C631BB5F0EF00CA7AAE /* Frameworks */,
+				D4035C641BB5F0EF00CA7AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ABCalendar;
+			productName = ABCalendar;
+			productReference = D4035C661BB5F0EF00CA7AAE /* ABCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4035C7E1BB5F0EF00CA7AAE /* ABCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4035C961BB5F0EF00CA7AAE /* Build configuration list for PBXNativeTarget "ABCalendarTests" */;
+			buildPhases = (
+				D4035C7B1BB5F0EF00CA7AAE /* Sources */,
+				D4035C7C1BB5F0EF00CA7AAE /* Frameworks */,
+				D4035C7D1BB5F0EF00CA7AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4035C811BB5F0EF00CA7AAE /* PBXTargetDependency */,
+			);
+			name = ABCalendarTests;
+			productName = ABCalendarTests;
+			productReference = D4035C7F1BB5F0EF00CA7AAE /* ABCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4035C891BB5F0EF00CA7AAE /* ABCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4035C991BB5F0EF00CA7AAE /* Build configuration list for PBXNativeTarget "ABCalendarUITests" */;
+			buildPhases = (
+				D4035C861BB5F0EF00CA7AAE /* Sources */,
+				D4035C871BB5F0EF00CA7AAE /* Frameworks */,
+				D4035C881BB5F0EF00CA7AAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4035C8C1BB5F0EF00CA7AAE /* PBXTargetDependency */,
+			);
+			name = ABCalendarUITests;
+			productName = ABCalendarUITests;
+			productReference = D4035C8A1BB5F0EF00CA7AAE /* ABCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4035C5E1BB5F0EF00CA7AAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Adrian Cruz";
+				TargetAttributes = {
+					D4035C651BB5F0EF00CA7AAE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D4035C7E1BB5F0EF00CA7AAE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D4035C651BB5F0EF00CA7AAE;
+					};
+					D4035C891BB5F0EF00CA7AAE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D4035C651BB5F0EF00CA7AAE;
+					};
+				};
+			};
+			buildConfigurationList = D4035C611BB5F0EF00CA7AAE /* Build configuration list for PBXProject "ABCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4035C5D1BB5F0EF00CA7AAE;
+			productRefGroup = D4035C671BB5F0EF00CA7AAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4035C651BB5F0EF00CA7AAE /* ABCalendar */,
+				D4035C7E1BB5F0EF00CA7AAE /* ABCalendarTests */,
+				D4035C891BB5F0EF00CA7AAE /* ABCalendarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4035C641BB5F0EF00CA7AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4035C791BB5F0EF00CA7AAE /* LaunchScreen.storyboard in Resources */,
+				D4035C761BB5F0EF00CA7AAE /* Assets.xcassets in Resources */,
+				D4035C741BB5F0EF00CA7AAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4035C7D1BB5F0EF00CA7AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4035C881BB5F0EF00CA7AAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4035C621BB5F0EF00CA7AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4035C711BB5F0EF00CA7AAE /* ViewController.m in Sources */,
+				D4035C6E1BB5F0EF00CA7AAE /* AppDelegate.m in Sources */,
+				D4035C6B1BB5F0EF00CA7AAE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4035C7B1BB5F0EF00CA7AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4035C841BB5F0EF00CA7AAE /* ABCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4035C861BB5F0EF00CA7AAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4035C8F1BB5F0EF00CA7AAE /* ABCalendarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4035C811BB5F0EF00CA7AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4035C651BB5F0EF00CA7AAE /* ABCalendar */;
+			targetProxy = D4035C801BB5F0EF00CA7AAE /* PBXContainerItemProxy */;
+		};
+		D4035C8C1BB5F0EF00CA7AAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4035C651BB5F0EF00CA7AAE /* ABCalendar */;
+			targetProxy = D4035C8B1BB5F0EF00CA7AAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4035C721BB5F0EF00CA7AAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4035C731BB5F0EF00CA7AAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4035C771BB5F0EF00CA7AAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4035C781BB5F0EF00CA7AAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4035C911BB5F0EF00CA7AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D4035C921BB5F0EF00CA7AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4035C941BB5F0EF00CA7AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adriancruz.ABCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4035C951BB5F0EF00CA7AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ABCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adriancruz.ABCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4035C971BB5F0EF00CA7AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adriancruz.ABCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABCalendar.app/ABCalendar";
+			};
+			name = Debug;
+		};
+		D4035C981BB5F0EF00CA7AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ABCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adriancruz.ABCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABCalendar.app/ABCalendar";
+			};
+			name = Release;
+		};
+		D4035C9A1BB5F0EF00CA7AAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adriancruz.ABCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D4035C9B1BB5F0EF00CA7AAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ABCalendarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = adriancruz.ABCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ABCalendar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4035C611BB5F0EF00CA7AAE /* Build configuration list for PBXProject "ABCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4035C911BB5F0EF00CA7AAE /* Debug */,
+				D4035C921BB5F0EF00CA7AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4035C931BB5F0EF00CA7AAE /* Build configuration list for PBXNativeTarget "ABCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4035C941BB5F0EF00CA7AAE /* Debug */,
+				D4035C951BB5F0EF00CA7AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4035C961BB5F0EF00CA7AAE /* Build configuration list for PBXNativeTarget "ABCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4035C971BB5F0EF00CA7AAE /* Debug */,
+				D4035C981BB5F0EF00CA7AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4035C991BB5F0EF00CA7AAE /* Build configuration list for PBXNativeTarget "ABCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4035C9A1BB5F0EF00CA7AAE /* Debug */,
+				D4035C9B1BB5F0EF00CA7AAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4035C5E1BB5F0EF00CA7AAE /* Project object */;
+}
